@@ -1,20 +1,5 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (webrtc_videoengine_demo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  bitrate_controller_impl.cc
-bitrate_controller_impl.cc(72): warning C4244: 'argument' : conversion from 'int64_t' to 'const uint32_t', possible loss of data
-bitrate_controller_impl.cc(99): warning C4244: 'initializing' : conversion from 'int64_t' to 'uint32_t', possible loss of data
-bitrate_controller_impl.cc(231): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data
-bitrate_controller_impl.cc(240): warning C4244: 'argument' : conversion from 'int64_t' to 'uint32_t', possible loss of data
-bitrate_controller_impl.cc(243): warning C4244: '=' : conversion from 'int64_t' to 'uint32_t', possible loss of data
   main.cc
-  overuse_detector.cc
-overuse_detector.cc(126): warning C4244: 'initializing' : conversion from 'const int64_t' to 'uint32_t', possible loss of data
-overuse_detector.cc(129): warning C4244: '=' : conversion from 'const int64_t' to 'double', possible loss of data
-overuse_detector.cc(137): warning C4244: 'argument' : conversion from 'int64_t' to 'uint32_t', possible loss of data
-  rate_statistics.cc
-  send_side_bandwidth_estimation.cc
-  vie_autotest_win.cc
-  vie_window_creator.cc
-  vie_window_manager_factory_win.cc
   Generating code
   Finished generating code
 audio_coding_module.lib(acm_cng.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'audio_coding_module.lib(acm_cng.obj)' or at 'C:\WebRTC-VideoEngine-Demo\Release\vc120.pdb'; linking object as if no debug info
